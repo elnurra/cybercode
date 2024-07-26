@@ -5,7 +5,7 @@ export const Login = () => {
   return (
     <div className="signin-page">
       <div className="hero-container">
-        <div className="subhead">Sign in</div>
+        <div className="subhead">Log in</div>
         <form className="input-group">
           <input
             type="email"
