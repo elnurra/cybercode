@@ -1,52 +1,68 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import './Register.scss';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "./Register.scss";
 
 export const Register = () => {
-  const [username, setUsername] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
-  const [successMessage, setSuccessMessage] = useState('');
+  const [fullname, setFullname] = useState("");
+  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
 
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate();
 
   const handleSubmit = async (event) => {
     event.preventDefault();
 
     if (password !== confirmPassword) {
-      setErrorMessage('Passwords do not match!');
+      setErrorMessage("Passwords do not match!");
       return;
     }
 
-    setErrorMessage('');
-    setSuccessMessage('');
+    setErrorMessage("");
+    setSuccessMessage("");
 
     try {
-      const response = await fetch('/api/register', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ username, email, password }),
+      const requestBody = JSON.stringify({
+        fullname,
+        username,
+        email,
+        password,
+        confirmPassword,
       });
+      console.log("Request body:", requestBody); // Вывод тела запроса
+
+      const response = await fetch(
+        "https://localhost:7236/api/Account/Register",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: requestBody,
+        }
+      );
 
       if (!response.ok) {
-        throw new Error('Registration failed');
-      }
+        const errorData = await response.text(); // Читаем тело ответа как текст
+        console.error("Registration failed:", errorData);
+        setErrorMessage(errorData);
+      } else {
+        const result = await response.json();
+        console.log("Registration successful:", result);
+        setSuccessMessage(
+          "Registration successful! Redirecting to homepage..."
+        );
 
-      const result = await response.json();
-      console.log('Registration successful:', result);
-      setSuccessMessage('Registration successful! Redirecting to homepage...');
-
-      // Redirect to the homepage after successful registration
-      setTimeout(() => {
-        navigate('/');
-      }, 2000); // Delay redirection to show success message
+        setTimeout(() => {
+          navigate("/");
+        }, 2000);
+      } // Delay redirection to show success message
     } catch (error) {
-      console.error('Error:', error);
-      setErrorMessage('Registration failed. Please try again.');
+      console.error("Error:", error);
+      setErrorMessage("Registration failed. Please try again.123123");
     }
   };
 
@@ -55,6 +71,13 @@ export const Register = () => {
       <div className="hero-container">
         <div className="subhead">Register</div>
         <form className="input-group" onSubmit={handleSubmit}>
+          <input
+            type="text"
+            className="input-field"
+            placeholder="Fullname"
+            value={fullname}
+            onChange={(e) => setFullname(e.target.value)}
+          />
           <input
             type="text"
             className="input-field"

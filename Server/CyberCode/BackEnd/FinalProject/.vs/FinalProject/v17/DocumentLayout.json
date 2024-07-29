@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Migrations\\20240729082818_AppDbcContextahnged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240729082818_AppDbcContextahnged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|c:\\users\\user\\desktop\\hackhaton\\cybercode\\server\\final-project\\backend\\finalproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|c:\\users\\user\\desktop\\hackhaton\\cybercode\\server\\final-project\\backend\\finalproject\\areas\\adminarea\\viewmodels\\phisingcrud\\phisingcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|solutionrelative:areas\\adminarea\\viewmodels\\phisingcrud\\phisingcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|c:\\users\\user\\desktop\\hackhaton\\cybercode\\server\\final-project\\backend\\finalproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|c:\\users\\user\\desktop\\hackhaton\\cybercode\\server\\final-project\\backend\\finalproject\\controllers\\commoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|solutionrelative:controllers\\commoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|c:\\users\\user\\desktop\\hackhaton\\cybercode\\server\\final-project\\backend\\finalproject\\areas\\adminarea\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|solutionrelative:areas\\adminarea\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|c:\\users\\user\\desktop\\hackhaton\\cybercode\\server\\final-project\\backend\\finalproject\\areas\\adminarea\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|solutionrelative:areas\\adminarea\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|c:\\users\\user\\desktop\\hackhaton\\cybercode\\server\\final-project\\backend\\finalproject\\areas\\adminarea\\viewmodels\\dashboardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|solutionrelative:areas\\adminarea\\viewmodels\\dashboardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|c:\\users\\user\\desktop\\hackhaton\\cybercode\\server\\final-project\\backend\\finalproject\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|solutionrelative:dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|c:\\users\\user\\desktop\\hackhaton\\cybercode\\server\\final-project\\backend\\finalproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25FEB702-1E2C-409D-B668-E1EBE1C94B59}|FinalProject.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 61,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240729082818_AppDbcContextahnged.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Migrations\\20240729082818_AppDbcContextahnged.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240729082818_AppDbcContextahnged.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Migrations\\20240729082818_AppDbcContextahnged.cs",
+              "RelativeToolTip": "Migrations\\20240729082818_AppDbcContextahnged.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:28:18.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-29T08:27:44.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhisingCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Areas\\AdminArea\\ViewModels\\PhisingCRUD\\PhisingCreateVM.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminArea\\ViewModels\\PhisingCRUD\\PhisingCreateVM.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Areas\\AdminArea\\ViewModels\\PhisingCRUD\\PhisingCreateVM.cs",
+              "RelativeToolTip": "Areas\\AdminArea\\ViewModels\\PhisingCRUD\\PhisingCreateVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:27:12.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:26:39.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommonController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Controllers\\CommonController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommonController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Controllers\\CommonController.cs",
+              "RelativeToolTip": "Controllers\\CommonController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:26:27.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Areas\\AdminArea\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminArea\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Areas\\AdminArea\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminArea\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T08:23:42.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Areas\\AdminArea\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminArea\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Areas\\AdminArea\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\AdminArea\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T08:22:51.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\DAL\\AppDbContext.cs",
+              "RelativeToolTip": "DAL\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:22:00.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DashboardVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Areas\\AdminArea\\ViewModels\\DashboardVM.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminArea\\ViewModels\\DashboardVM.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Areas\\AdminArea\\ViewModels\\DashboardVM.cs",
+              "RelativeToolTip": "Areas\\AdminArea\\ViewModels\\DashboardVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:21:56.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Hackhaton\\cybercode\\Server\\Final-Project\\BackEnd\\FinalProject\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T08:21:38.72Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
